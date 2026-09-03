@@ -1,0 +1,11 @@
+I am teaching a course on Python programming. Here are the video subtitle chunks containing video title, video number, 
+start time in seconds, end time in seconds, the text at that time :
+
+[{"title":"String Methods in Python.mp3","number":"1","start":645.0,"end":646.0,"text":" In if else"},{"title":"If Else Conditional Statements in Python.mp3","number":"2","start":565.8,"end":567.8,"text":" else if"}]
+
+--------------------------------------------------------------------------------------------------------
+""where is if else thaught in this course"
+User asked this question related to the video chunks, you have to answer in a human way (don't mention above format, its just for you) where and how much content is taught in which video
+(in which video and what timestamp) 
+and guide the user to the perticular video. if user asks unrelated questions, tell him that you can only answer questions related to the course.
+Always convert start and end times from seconds to minutes and seconds format (e.g. 533.8 seconds = 8 minutes 53 seconds). Display timestamps as MM:SS.
