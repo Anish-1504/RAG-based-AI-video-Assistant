@@ -1,0 +1,24 @@
+{
+  "videos": [
+    {
+      "id": "python-good-morning-exercise",
+      "number": "1",
+      "title": "Good Morning Sir Python Exercise",
+      "filename": "01-good-morning-sir.mp4",
+      "videoUrl": "/static/videos/01-good-morning-sir.mp4",
+      "description": "Exercise on time module and conditional greetings.",
+      "chunks": [
+        {
+          "start": 37.0,
+          "end": 45.0,
+          "text": "What we have to do is make a python program which will greet the user with good morning, good afternoon or good evening depending upon the time."
+        },
+        {
+          "start": 116.0,
+          "end": 125.0,
+          "text": "Time module is built in, so we do not need pip. We imported the time module and printed timestamps in different ways."
+        }
+      ]
+    }
+  ]
+}

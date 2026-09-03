@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Video Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="app-shell hero">
+      <nav class="topbar" aria-label="Primary">
+        <div class="brand">
+          <span class="brand-mark">AV</span>
+          <span>AI Video Assistant</span>
+        </div>
+        <div class="nav-links">
+          <a href="#assistant">Assistant</a>
+          <a href="#how">How it works</a>
+          <a href="#knowledge">Knowledge base</a>
+          <a href="#playground">Playground</a>
+          <a href="#disclaimer">Disclaimer</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Pre-trained video RAG system</p>
+          <h1>Ask questions across your indexed video knowledge base.</h1>
+          <p>
+            A production-focused V1 experience for searching pre-transcribed, chunked, embedded, and timestamped videos.
+            No uploads, no dataset expansion, just fast grounded answers with sources.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#assistant">Start asking</a>
+            <a class="secondary-action" href="#how">Explore pipeline</a>
+          </div>
+        </div>
+        <div class="system-panel" aria-label="System status">
+          <div>
+            <span class="status-dot"></span>
+            <strong id="healthText">Loading index...</strong>
+          </div>
+          <div class="metric-grid">
+            <div><span id="videoCount">0</span><small>Videos</small></div>
+            <div><span id="chunkCount">0</span><small>Chunks</small></div>
+            <div><span>V1</span><small>No uploads</small></div>
+          </div>
+          <div class="mini-flow">
+            <span>Query</span><i></i><span>Retrieve</span><i></i><span>Answer</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="assistant" class="app-shell assistant-layout">
+        <div class="chat-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Live assistant</p>
+            <h2>Grounded answers with video timestamps</h2>
+          </div>
+          <div class="assistant-actions" aria-label="Assistant quick actions">
+            <button type="button" data-question="Where is if else taught in this course?">If else</button>
+            <button type="button" data-question="What projects are explained in the course?">Projects</button>
+            <button type="button" data-question="How is the time module used?">Time module</button>
+            <button type="button" id="clearChatBtn">Clear</button>
+            <button type="button" id="copyAnswerBtn">Copy answer</button>
+          </div>
+          <div id="chatLog" class="chat-log" aria-live="polite"></div>
+          <form id="queryForm" class="query-form">
+            <input id="questionInput" autocomplete="off" placeholder="Ask about if-else, time module, Python exercises..." />
+            <button type="submit">Ask</button>
+          </form>
+        </div>
+        <aside class="retrieval-panel">
+          <h3>Retrieved Sources</h3>
+          <div id="sourceList" class="source-list"></div>
+        </aside>
+      </section>
+
+      <section id="how" class="wide-band">
+        <div class="app-shell">
+          <div class="section-heading">
+            <p class="eyebrow">Interactive flow</p>
+            <h2>How the RAG pipeline works</h2>
+          </div>
+          <div id="flowSteps" class="flow-steps"></div>
+          <div id="flowDetail" class="flow-detail"></div>
+        </div>
+      </section>
+
+      <section class="app-shell split-section">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Tech stack explorer</p>
+            <h2>Click a layer to inspect the system design</h2>
+          </div>
+          <div id="techGrid" class="tech-grid"></div>
+        </div>
+        <div id="techDetail" class="detail-console"></div>
+      </section>
+
+      <section class="wide-band visualizer-band">
+        <div class="app-shell">
+          <div class="section-heading">
+            <p class="eyebrow">RAG pipeline visualizer</p>
+            <h2>Click each node to see what happens at runtime</h2>
+          </div>
+          <div id="ragGraph" class="rag-graph"></div>
+          <p id="graphHint" class="graph-hint">Select a node to inspect the runtime answer.</p>
+        </div>
+      </section>
+
+      <section id="knowledge" class="app-shell knowledge-layout">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Video knowledge base</p>
+            <h2>Explore indexed videos and transcript chunks</h2>
+          </div>
+          <div class="kb-toolbar" aria-label="Knowledge base filters">
+            <button type="button" class="active" data-filter="all">All videos</button>
+            <button type="button" data-filter="searchable">Searchable videos</button>
+            <button type="button" data-filter="play-only">Play-only videos</button>
+          </div>
+          <input id="videoSearch" class="search-input" placeholder="Search videos and transcripts" />
+          <div id="videoList" class="video-list"></div>
+        </div>
+        <div class="video-player">
+          <iframe
+            id="videoFrame"
+            title="Referenced YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <a id="youtubeOpenLink" class="secondary-action" href="#" target="_blank" rel="noreferrer">Open on YouTube</a>
+          <div id="playerEmpty">Select a source or video to load the YouTube timestamp here.</div>
+        </div>
+      </section>
+
+      <section id="playground" class="wide-band">
+        <div class="app-shell playground">
+          <div class="section-heading">
+            <p class="eyebrow">Live query playground</p>
+            <h2>Compare retrieval context with the final answer</h2>
+          </div>
+          <div class="compare-grid">
+            <div>
+              <h3>Prompt Context</h3>
+              <pre id="promptPreview">Run a question to see the context sent to the model.</pre>
+            </div>
+            <div>
+              <h3>Response Metrics</h3>
+              <div class="metric-list">
+                <span>Confidence <strong id="confidenceMetric">-</strong></span>
+                <span>Latency <strong id="latencyMetric">-</strong></span>
+                <span>DeepSeek <strong id="modelMetric">-</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="disclaimer" class="app-shell disclaimer-section">
+        <div class="section-heading">
+          <p class="eyebrow">Disclaimer</p>
+          <h2>Training source and usage notes</h2>
+        </div>
+        <div class="disclaimer-grid">
+          <p>The videos trained for this project are from the CodeWithHarry YouTube Channel, and the videos are available on YouTube for free.</p>
+          <p>This project is an educational RAG showcase and is not affiliated with, sponsored by, or officially endorsed by CodeWithHarry or YouTube.</p>
+          <p>All answers should remain grounded in the retrieved transcript chunks. If a topic is not present in the indexed knowledge base, the assistant must say so clearly.</p>
+          <p>Video ownership, copyright, branding, and monetization rights remain with their original creators and platforms. Source links are preserved so users can watch the original videos.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

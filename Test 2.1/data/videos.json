@@ -1,0 +1,649 @@
+{
+  "videos": [
+    {
+      "id": "python-video-01",
+      "number": "1",
+      "title": "Python Training Video 01",
+      "filename": "youtube-7wnove7K-ZQ",
+      "videoUrl": "https://youtu.be/7wnove7K-ZQ",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-02",
+      "number": "2",
+      "title": "Python Training Video 02",
+      "filename": "youtube-Tto8TS-fJQU",
+      "videoUrl": "https://youtu.be/Tto8TS-fJQU",
+      "description": "CodeWithHarry YouTube lesson with English captions indexed for V1 semantic search.",
+      "chunks": [
+        {
+          "start": 0.05,
+          "end": 28.53,
+          "text": "Welcome to the 100 Days Of Code series Today I want to tell you a personal story When I was in the second year of college I know C & C++ quite well I was in the field of code, I know HTML but I was unable to work in the industry after a lot of efforts Maybe because I was unable to get C or C++ project I'm not saying that C or C++ are inadequate programming languages With the help of C++ I've made a lot of conditional related programs"
+        },
+        {
+          "start": 28.56,
+          "end": 63.5,
+          "text": "I made a lot of products, but I was unable to work in this industry any how When I was introduced to Python I done a lot of freelancing by doing Web Scrapping and making GUIs & Flask Applications I consider python as a language which actually told me the use of programming \"Why we value programming so much in industry\" and \"Why it is widely used in industry\" In today's video I'm going to show you some programs and you'll be amazed seeing those programs"
+        },
+        {
+          "start": 63.52,
+          "end": 92.56,
+          "text": "Because after seeing those programs you'll know the actual use of programming I'll introduce 5 programs to you and you'll be amazed seeing those programs Few of them are amazing games Jarvis: A Virtual Assistant which follows the steps you guide Whatever you speak or command, he does. One of the biggest objectives of making 100 Days Of Coding series is that many new features have come in Python. And a lot of new approaches which I want to tell you"
+        },
+        {
+          "start": 92.6,
+          "end": 120.97,
+          "text": "And this brand new course will touch all those things For eg. Walrus Operator has been added to Python and a lot of new additions have been made Easier ways to do things has been introduced in Python So we'll cover all these things in this course I'll teach you Python so well just as a Snake Charmer hypnotizes the snake You can hypnotize the Python while programming You'll be able to do whatever you want So let's move to the showcase and let me show you the programs I've made through Python"
+        },
+        {
+          "start": 121.0,
+          "end": 149.73,
+          "text": "Let's get started [STARTING THEME] So the first program I want to show you is Jarvis: A Virtual Assistant What does this program do? Basically it takes the command And execute that command [JARVIS] Good Morning I'm Jarvis Sir! Please tell me how may I help you \"Jarvis, Open Google\""
+        },
+        {
+          "start": 151.91,
+          "end": 182.26,
+          "text": "\"Jarvis, Open YouTube\" As you can see it has opened the YouTube So this programs is quite cool, you just give it a command and it'll complete the task Now the next program I want to show you is... That program is 'Love Calculator' An amazing calculator which calculates the love between 2 people Now obviously it won't show the accurate love between you & your partner"
+        },
+        {
+          "start": 182.28,
+          "end": 211.51,
+          "text": "You already know that But we've made this program in a fun way using random module In which if we add 2 names so it'll tell the love percentage between 2 people So let's try this out. So in name I'll add \"Harry\" And in partner's name I'll add \"Payal\" and now let's calculate It's 97% OK Quite Good And now let's suppose if I write... Let us say \"Sanskriti\" So 03% has appeared"
+        },
+        {
+          "start": 211.54,
+          "end": 243.18,
+          "text": "Only 3% which means I should maintain distance with girls name \"Sanskriti\" All the boys with name \"Harry\" So this is quite funny calculator And I hope you'll enjoy using it The next program I'm going to show you is... It's Face Recognition Program which uses Haar Cascade Algorithm It tells where's the face in an Image it is a face detection algorithm So look it'll tell where's the actual face hidden in this image of Robert Downey Jr."
+        },
+        {
+          "start": 243.29,
+          "end": 274.11,
+          "text": "So I'll run this for 1.jpg file You can run this for whatever file you want So I ran this & look it has detected all the faces from this image So I can run this for different images It not only work for a single image. And it is working for other images too It was quite fun program and it was fun making it And the next project is Flappy Bird Game There will hardly be anyone who hasn't played it"
+        },
+        {
+          "start": 274.16,
+          "end": 306.84,
+          "text": "Basically it is quite amazing game we play this game usually in our mobile phones But you can play this game freshly designed by your own hands Flappy Bird.... [BEEP] I can play this And look I'm playing this right now [BEEPING CONTINUES] And It'll be quite fun playing this game So 5th, Last but not the least... I've made a lot of other projects but this is something I want to showcase How we can design Snake Game in Python Let me show you this game and as you can see Black dot is the snake and red one is the food"
+        },
+        {
+          "start": 306.97,
+          "end": 335.39,
+          "text": "I know I can make it more better by changing the images But I just build the logic And look I'm playing it I'll basically break the high score which is 90 I can make it a lot bigger And I'm telling you I'm a very dangerous hardcore gamer As you can see I've touched the 90 score mark What if I am out.... No I don't want to be out Yes! I scored 100 It's quite fun man. It's quite fun"
+        },
+        {
+          "start": 335.41,
+          "end": 363.96,
+          "text": "There's something different in playing game which we created with our own hands I just want to tell you So in the upcoming videos we're going to do stuff like this And you guys are going to have a lot more fun Because we won't just make these projects... But we'll create projects in which we'll convert our ideas into reality Now I want to give you all these codes I want you to run these codes in your system"
+        },
+        {
+          "start": 364.01,
+          "end": 394.27,
+          "text": "If you're able to run or not that is a different thing But try to run these codes And install all the modules I've installed with \"pip install\" If not now then, when we'll move to the Chapter : 'Modules' Try to run these codes with \"pip install\" if you're unable to run these I hope you won't face any problem while running these codes But if you're facing problem so as we'll gradually progress in this course... Come back to this program And look for the mistake. \"I got the no module error\" So \"Can I fix it & run it again\""
+        },
+        {
+          "start": 394.49,
+          "end": 422.64,
+          "text": "It's not that you've to do everything in this video I hope you'll enjoy running these programs Keep these codes with yourself And as we'll progress in this course you'll be able to do this more easily I'm giving you all these programs here All five programs are present here which I showed you You can run these on your machine And this is full of enjoyment"
+        },
+        {
+          "start": 422.66,
+          "end": 452.01,
+          "text": "Few of them are using Windows API so they'll only function in Windows For eg. Jarvis Virtual Assistant You can do this in Mac or Linux But we'll do this when we'll do progress in the course Try to run these programs and you'll enjoy them a lot But don't try to re-create them Don't think that you've learned much Python you can now create them from scratch & make changes in them But if you try to do this so this will frustrate you because you'll try something you don't know how to do"
+        },
+        {
+          "start": 452.04,
+          "end": 480.51,
+          "text": "So that's not a good idea So we'll create them all or even one level above Just give me your precious time Just continue this 100 Days of Code Journey and you'll also enjoy this So you'll get the link for Replit in the description And one more thing I want to ask you is If you haven't access this playlist So make sure to access this right now because it'll contain all the videos"
+        },
+        {
+          "start": 480.58,
+          "end": 498.86,
+          "text": "If you don't bookmark this play-list So you might miss some days And I don't want you to miss any day Bookmark this playlist And in the upcoming days we're going to do a lot of stuff full of enjoyment Take care of yourself And I'll see you next time"
+        }
+      ]
+    },
+    {
+      "id": "python-video-03",
+      "number": "3",
+      "title": "Python Training Video 03",
+      "filename": "youtube-xwKO_y2gHxQ",
+      "videoUrl": "https://youtu.be/xwKO_y2gHxQ",
+      "description": "CodeWithHarry YouTube lesson with English captions indexed for V1 semantic search.",
+      "chunks": [
+        {
+          "start": 0.03,
+          "end": 28.21,
+          "text": "Guys welcome back to 100 Days Of Code In today's video we'll talk about 'Modules' & \"What is 'pip'? \" Basically modules are used to borrow someone else's code Which means you can use someone else's code in your program with the help of modules We have 2 kind of 'Modules' 1. Built-in Modules And the 2nd one is External Modules which are installed using 'pip' 'External Module' is a code written by people And they want you to use their code in your Python program"
+        },
+        {
+          "start": 28.24,
+          "end": 57.79,
+          "text": "Just understand it like, I'm using this phone And how is it functioning I don't know even then I'm able to use it This is a type of 'External Module' for me I don't know what its implementation are. But I'm able to use it On the other hand 'Built-in Modules'.. ....Are the modules which ships along with Python Programming Language Which means there's no need for you to install them externally We use 'Modules' because we don't want to code basics programs from scratch If you're working on a Big Machine Learning Program"
+        },
+        {
+          "start": 57.82,
+          "end": 91.62,
+          "text": "And you're using AI for... Let us say self-driving car So you don't want to write a program to find the average of 10 numbers Or a program to find the Geometric mean of 10 numbers In that human errors may occur But the code written in 'Modules' is well-tested & written by experts And because many people have used this so there are very less chances for error You can write programs from the scratch for your understanding if you want But if you use 'Modules' so it'll save your time & efforts and you can work on some big projects"
+        },
+        {
+          "start": 91.64,
+          "end": 120.47,
+          "text": "Let's move to the computer screen and we'll install some 'Modules' & learn how they works Let's get started [STARTING THEME] So guys I'm now in my computer screen And I'll quickly open my Day-3 Repl And here you can see the video which I'm currently recording But because this video is not recorded yet so let me keep it aside"
+        },
+        {
+          "start": 120.5,
+          "end": 148.67,
+          "text": "But you'll be able to see this video Just telling And along with that I'll adjust this.... So you can adjust it as you please I just quickly want to tell you \"What are 'Modules' in Python\" Look, whenever you write a code in Python Programming Language So you can write it in 2 manners Either you're writing it on your own Or you can take help from 'Modules' If you've installed Python in your computer And if you go to your terminal"
+        },
+        {
+          "start": 148.79,
+          "end": 178.31,
+          "text": "And if you write \"pip\" So you'll be able to see a Utility Because I'm using Mac, so I've to use \"pip3\" If you're using Linux or Mac so you've to use \"pip3\" and in Windows you've to use \"pip\" But you can see as I wrote \"pip3\" here I've got a lot of stuff here Now if I write \"pip3 install pandas\" There's no need for you to know about 'pandas' or what am I writing So look \"Collecting pandas\" is written here It is downloading a package with 1.1mbps Let me explain what's going on"
+        },
+        {
+          "start": 178.36,
+          "end": 208.28,
+          "text": "When I write \"pip install pandas\" so I command my 'pip'... ...To install the package with name 'pandas' Now what is 'pandas'? It is a library of data analysis But let me tell you that you can use a lot of modules like this here Look I've used the 'pandas' here Now let me tell you a very good analogy to explain the difference between Built-in & External Modules When you were a child your mother ask you to buy some groceries... ...Or Milk or Yogurt..."
+        },
+        {
+          "start": 208.44,
+          "end": 239.14,
+          "text": "...Or bread or butter... And whatever you bought was available at your home So basically you were the package manager for you home Whatever the item was needed you bought that from the suitable place and bring it home Same like that 'pip' is a package manager It installs whatever the module you ask for from the internet in your Python interpreter For eg. it has installed the Pandas as you can see Now I can use 'pandas' But does every module needs to be installed? If you need a refrigerator so almost every house owns it"
+        },
+        {
+          "start": 239.3,
+          "end": 270.57,
+          "text": "And there's no need for you to buy a refrigerator That is a kind of a built-in module. It is already present in your house Every home has Needle & Thread Every home has Plate & Spoon So these all are like Built-in Modules So there's no need to buy them every time we need them So that's how Built-in & External Modules works So we can install whatever the module we want with the help of 'pip' Now if I write \"python3\" and if you're using windows so if you write \"python\" here So you'll be able to see python version 3.11 Let me zoom it in a little bit"
+        },
+        {
+          "start": 270.66,
+          "end": 303.64,
+          "text": "Now if I write \"import pandas\" here so I won't see any error here But now if I write \"import sklearn\" So I'll see an error \"ModuleNotFoundError: No module named 'sklearn' \" This happened because this module was not present in my computer Now don't be tensed about what I'm writing. You won't get it I already know I'm just telling you for your understanding... ...that \"How to grab modules\" Now I'll exit the python's Repl by writing \"Exit()\" Now if I want to install \"sklearn\" so I'll write \"pip3 install scikit-learn\""
+        },
+        {
+          "start": 303.73,
+          "end": 333.46,
+          "text": "I'll write \"sklearn\" when I'll use the this package but for installing I'll write \"scikit-learn\" You can see it is installing and with quite a good speed Now after this if I import 'sklearn'  by writing python3 So my job will be done Now it is installing some of its dependencies which may take some time What is 'sklearn'? A library for Machine Learning Shall we use it now? Not just yet So if I write \"sklearn\" here So you'll be able to see  \"Machine Learning Library in Python\" We'll do everything, don't mind it We'll bang it"
+        },
+        {
+          "start": 333.68,
+          "end": 362.81,
+          "text": "Some people are commenting that the course is being very slow. Yeah I know that Tell me this after some days when the difficulty level will rise And there will be absolute understanding I guarantee it. Just follow me everyday step-by-step Now I want to show you... When it'll be installed... And when I'll write \"sklearn\".... I want to show you \"import sklearn\" That \"import sklearn\" will work here Look when I'll write \"import sklearn\" it'll work, there won't be any error"
+        },
+        {
+          "start": 362.98,
+          "end": 394.3,
+          "text": "So now I'll exit it Now this interface which we are able to see by writing \"python3\" it is called REPL REPL means Read, Evaluate, Print, Loop We won't use it We'll write proper programs We'll directly execute Python scripts And for this I'm using 'Replit' Can you do this without 'Replit'? Absolutely it's possible but I'm using 'Replit' because it is quite convenient So I'll create a file with name \"main.py\""
+        },
+        {
+          "start": 394.5,
+          "end": 424.68,
+          "text": "And I'll move it's output 'Console' here Can you see as I'm dragging it.... Now I can see my output here You'll be able to see my video here which will be super convenient for you So what I'll write in 'main.py' is.... I'll write \"import pandas\" And do you know what's the biggest advantage of using 'Replit'? As I'll run it, It'll detect that 'pandas' is not installed So it'll automatically install it So don't be confused about \"Why I didn't get the error\" The error didn't occur because for your convenience Replit started installing it automatically"
+        },
+        {
+          "start": 425.09,
+          "end": 454.42,
+          "text": "Replit wants you to be convenient while you program But you must know the concepts. If you run this here so you'll get the errors as I showed you And look Replit automatically started installing pandas for me because it knows... ...That if I import pandas so I definitely want to use it. So why not install it automatically? Which I find quite great from replit So they have installed the pandas in Python Now let's suppose I write here \" print(\"Hi\") \""
+        },
+        {
+          "start": 454.7,
+          "end": 483.68,
+          "text": "Now if I run it... So 'pandas' has been installed and I'm able to see \"Hi\" So this is the USP of Replit So for your convenience I've written in text \" 'Modules' are like code library which you can use in your program using 'import' keyword\" I'll tell you more about this Built-in Module & External Modules are two types of Modules Built-in Modules are modules which ships along with Python Programming language So let's search for \"Built-in Modules in Python\""
+        },
+        {
+          "start": 483.71,
+          "end": 511.71,
+          "text": "And let's look for the modules that are built-in in Python and I don't need to install every-time So look here's the list of those modules You can see here's a module with name \"hashlib\" Let's try using it. Let try \"import hashlib\" And let's see when I'll command it \"Import hashlib\" so will it be installed? So look as I run it... Look it didn't install. Just simply \"Hi\" has appeared But on the other hand if I write \"import tensorflow\""
+        },
+        {
+          "start": 512.04,
+          "end": 541.65,
+          "text": "Let me show you when I'll write \"import tensorflow\" So 'tensorflow' will start installing So look it started installing 'tensorflow' Because 'tensorflow' is not a built-in module it is an external module Which needs to be download from internet that's why it is being installed External modules needs to be installed just like something in your house that's expired You've to buy that everyday like milk But you don't need to buy plate everyday because it's present in your home So plate is like Built-in module and Milk which you buy everyday is like External module"
+        },
+        {
+          "start": 541.86,
+          "end": 571.11,
+          "text": "It's fun man So look I've told here how to use 'pip' command If you write \"pip install pandas\" so 'pandas' will be installed You can use this button to copy the code So whatever the code I'm writing here... Just copy this in this way and paste it like this And you'll be able to run it So how 'pandas' function? 'Pandas' is a module which contains read CSV function CSV is a file just like XLS which you can read But don't be in this trap for now I'm just telling you how these things works"
+        },
+        {
+          "start": 571.36,
+          "end": 602.87,
+          "text": "In the coming days I'll help you to read excel and all. So don't be tensed about that Now many people are asking which Python tutorial should they follow? So always follow the latest videos because they come with a bang If you find this video latest so follow this And many people ask \"Which version of python should I use? \" So for those people, Use the latest version If you use Replit so there's nothing for you to tensed about that As long as it's Python 3, Python3.7 Python3.11 or 3.8"
+        },
+        {
+          "start": 602.99,
+          "end": 634.78,
+          "text": "There won't be any major difference in them Your programs will work But yes if Python4 or Python5 comes so that may be a major upgrade It \"MAYBE\", there's no guarantee if some things will remain same in Python4 so that would be interesting to see Never worry about which version of python you must use \"Can I use v3.12 while watching tutorial for v3.11?\" Absolutely you can use it Basics will remain same Now just like we have this terminal, replit have 'Shell'"
+        },
+        {
+          "start": 634.97,
+          "end": 665.38,
+          "text": "If you write \"Python\" in 'Shell' So the same interface will be shown look Python3.8.12 is installed in it If I write.... \" Print(\"Hello\") \" \"hello\" doesn't contain \"w\" Pal, I know the spelling of \"hello\" I'll press 'Enter' so look \"hello\" has appeared here So you get this terminal here And you IDE is built-in in your browser So this makes it quite convenient And I'll also be here. You can see me here In this floating window"
+        },
+        {
+          "start": 665.42,
+          "end": 694.55,
+          "text": "And you'll be able to see text tutorial written by me I've written this with a lot of efforts so make sure to read it & don't skip it So your learning experience will be quite good We've crossed 300k views on our Python Tutorial #1 just in 24hrs So this video was quite trending So make sure to access this play-list Bookmark this play-list by clicking here and save this by clicking here You'll enjoy it a lot"
+        },
+        {
+          "start": 694.58,
+          "end": 724.43,
+          "text": "Python is a very magnificent programming language Python is being used by YouTube, Instagram & Facebook The real question is not \"Who use Python\" But The real question is \"Who doesn't use Python\" Python is so versatile language that every Unicorn use the Python Now this is clear to us why are we programming It is because we are humans As humans we do somethings better than computers And as computers they do somethings better than us So we wants the computer to do in which they are best"
+        },
+        {
+          "start": 724.58,
+          "end": 742.09,
+          "text": "And in whatever we're good, we're doing that in our daily life So that's why we use Python Programming Language Because it is quite easy and make sure to meet me at day #4 That's it for today's video guys Thank you so much guys for watching this video :) And I'll see you next time"
+        }
+      ]
+    },
+    {
+      "id": "python-video-04",
+      "number": "4",
+      "title": "Python Training Video 04",
+      "filename": "youtube-7IWOYhfAcVg",
+      "videoUrl": "https://youtu.be/7IWOYhfAcVg",
+      "description": "CodeWithHarry YouTube lesson with English captions indexed for V1 semantic search.",
+      "chunks": [
+        {
+          "start": 0.01,
+          "end": 28.18,
+          "text": "Welcome back to 100 Days Of Code guys In today's video we'll write our Python program I'd rather say our very own first Python program Because this Python program is going to be in which we'll write every line with understanding We'll have full understanding about our Python program And we'll write this code from scratch In upcoming videos we'll write quite mind-blowing Python programs from scratch But this is going to be our first program Let's move to the computer screen. And let's get started."
+        },
+        {
+          "start": 28.21,
+          "end": 56.7,
+          "text": "[STARTING THEME] So I've opened my day #4 Repl And today we're going to write our first Python program But pal, we already had written our first python program In fact we wrote a lot of programs But this program is going to be one, which I'll write from scratch character-by-character & word-by-word So there's another feeling writing this So what you first have to do  is...."
+        },
+        {
+          "start": 56.88,
+          "end": 85.16,
+          "text": "You've to write \"print\" Now let me tell you what does 'Print' in Python means 'Print' is a function Now what is function? Function is used to perform any task 'Print' is function. And to invoke any function we use parenthesis() like this As you can see I've opened a parenthesis after writing \"print\" And then I can close it in this manner And whatever I'll write in between will be printed"
+        },
+        {
+          "start": 85.3,
+          "end": 114.92,
+          "text": "Let's suppose if I write \" 7 \" here So \" 7 \" will be printed But do you know what we'll do? We'll write \"Hello World\" May be you're already familiar with \"Hello World\" Whenever someone write code in Python or any other programming language So the very first program that we write is \"Hello World\" Now look as I wrote \"print(Hello World)\" so a red line has appeared here Now what's this man! \"invalid syntax\" Now let's try to run this \"Man! We started with an error\" Yes! we started with an error Because we'll rise when we'll fall"
+        },
+        {
+          "start": 115.0,
+          "end": 143.32,
+          "text": "So look I've written \"print(Hello World) And I got an error Do you know why this occurred? In python when you use 'Print' function so you've to add a valid object \"(Hello World)\" is not a valid object for Python Pythons says I don't know what \"(Hello World)\" is Yes! If you enclose this in a Double-quote(\" \") So Python programming knows that you're now talking about a 'String' And \"(\"Hello World\")\" is a string Let's try to run this & we've written our first Python program"
+        },
+        {
+          "start": 143.51,
+          "end": 173.57,
+          "text": "And we're able to see the \"Hello World\" Are you all eyes? We are able to see \"hello World\" Give a big round of applause and write \"Congratulations\" in comments for you and for me This is the first program we wrote character-by-character Great! So far so good If I write \"Print\" here and then if I write \"5\" and then if I run this So at first I'll got \"Hello World\" And then I'll got \"5\" We used Python in terminal And we learned that when we write \"python3\" in terminal"
+        },
+        {
+          "start": 173.79,
+          "end": 202.11,
+          "text": "And then if... ...I write \"print(\"Hello World\")\" So I've to write manually line-by-line I've to type everything here manually one-by-one Can you see I first typed \"Hello World\" And then I typed \"print(\"5\")\" So will I type everything one-by-one? No! There's no need for me to write them one-by-one I can create a script. That's why I created this script \"main.py\" Script means our code will be executed line-by-line"
+        },
+        {
+          "start": 202.14,
+          "end": 233.42,
+          "text": "If I've written \"Hello World\" first so it'll be printed first And then \"print(\"5\")\" will be executed And as I'll write \"print(\"Bye\")\" here And then if I run it So I'll first get \"Hello World\" then \"5\" and then \"Bye\" So this script is executing code line by line Now how \"print\" has been written, we don't need to go to its implementation Now if you want to know for what else \"print\" is used So look Replit is displaying... As I hovered my cursor here so it is asking for the values"
+        },
+        {
+          "start": 233.45,
+          "end": 262.79,
+          "text": "It'll be an object You can give multiple values by adding comma(,) As I wrote \"Hello World , 7\" so \"Hello World 7\" has been printed\" And then the rest of the two statements executed And line-by-line our script will be executed Can we only perform 'Print' function with the help of Python Programming Language? No man! That's not the only thing. We can do a lot of other stuff And this is the quality of this course that it'll tell what will we do Because we are just starting and this is our first Python Program"
+        },
+        {
+          "start": 262.84,
+          "end": 291.12,
+          "text": "We are just understanding things What are 'Scripts' And when we execute a command line-by-line And when we give any command to Python interpreter in Repl This is called 'Repl' When we write \"python3\" here \"Python3\" this is called Repl Read, Evaluate, Print, Loop When I'll command it \"8+9\" so \"17\" will appear But then I've to write something again and I'll get it's output I'll get the output as I keep on writing commands Ideally we don't wanna do this"
+        },
+        {
+          "start": 291.26,
+          "end": 321.31,
+          "text": "Ideally we want Python to process the sequence of instruction We want to tell Python to do anything we want Execute this one first and then this one and then this one And let's suppose I bought Okra for ₹10/Kg Or I bought 5Kg Or let's suppose I bought it ₹17/Kg And I bought 13Kg So I'll tell Python that I bought Okra for ₹17/Kg And I bought 13Kg"
+        },
+        {
+          "start": 321.34,
+          "end": 352.04,
+          "text": "So what's the total? And it'll tell you So you can do operations like this in print function For multiplication you've to use star(*) don't use (X) even by mistake And for divide you've to use slash(/) And (+) (-) these are simple give them a try But look the total is ₹221 and I've to give it to the seller So Python can also do computations like this In the upcoming videos we're going to learn some more things Just be with me in this course And I want to tell you for whom this course is not suitable"
+        },
+        {
+          "start": 352.15,
+          "end": 381.49,
+          "text": "If you guys can't stay consistent daily Or you want to do things in a shortcut manner So this course is not for you Because this course requires consistency It demands you to practice things as you keep on watching the videos And invest your precious time to complete this 100 Days Of Code challenge You've to reach the 100th day Mark your attendance in the comment section with \"I'm present\". I'll keep my eyes on everyone And if you want to learn this course in a short amount of time and without any practice, so this course is not for you"
+        },
+        {
+          "start": 381.52,
+          "end": 411.9,
+          "text": "Because it demands practice There's no elevator for the success you've to take the stairs And these are those stairs And you've to climb these stairs for 100 days with me And trust me it'll be worth it at the end I'll tell you those things from my years of experience which took quite long for me to learn And from the upcoming videos we'll start coding We'll write a lot of codes over the next few videos And in fact over the next a lot of videos Because we are going to follow this challenge for 100 days"
+        },
+        {
+          "start": 411.92,
+          "end": 425.37,
+          "text": "That's it for today's video guys And if you haven't access the play-list So make sure to access it, bookmark it & save it That's it for today's video guys Thank you so much guys for watching this video :) And I'll see you next time"
+        }
+      ]
+    },
+    {
+      "id": "python-video-05",
+      "number": "5",
+      "title": "Python Training Video 05",
+      "filename": "youtube-qxPMmW93eDs",
+      "videoUrl": "https://youtu.be/qxPMmW93eDs",
+      "description": "CodeWithHarry YouTube lesson with English captions indexed for V1 semantic search.",
+      "chunks": [
+        {
+          "start": 0.0,
+          "end": 29.77,
+          "text": "Welcome back to the 100 Days Of Code series We'll have a close look on Comments, Escape Sequence Character & Print Statement Whenever we code in Python or any other programming language Sometimes we want to have text in the program that does not execute. Whatever we write in our program, Python interpreter tries to execute it But sometimes we would like to write some lines in our program which should not be executed. For eg. If I'm writing a program So it is possible that after 6 months I myself forget what was that program for"
+        },
+        {
+          "start": 29.79,
+          "end": 57.82,
+          "text": "So in this situation it would be natural for me to write few lines in my program I'd like to add some lines in it to tell future Harry what program I had written. Let's suppose I'm working with a friend of mine Shivam and the other friend Rohan So I have to tell both of them what am I doing in this program And how this program is functioning And for this I'll use 'Comments' And we'll also learn Escape Sequence Character & Print Statement in this video"
+        },
+        {
+          "start": 57.84,
+          "end": 86.83,
+          "text": "Let's move to the computer screen And let's get started [STARTING THEME] So what I'll do is... I'm going to open my \"main.py\" file here So let me open the 'Files' and as always I'll open \"main.py\" here And here you'll be able to see... ...The output of \"main.py\""
+        },
+        {
+          "start": 86.85,
+          "end": 117.83,
+          "text": "So if I write here \"print(\"Hey I am a good boy\") So there's no doubt that I'm a good boy So \"Hey I am a good\" will be printed In fact in print statement whatever you add in double-quotes(\" \") will be printed So \"Hey I am a good boy\" has been printed And look if I write here \"Hey I am a good boy\" And as I pressed 'Enter' here And let me write \"and this viewer is also a good boy/girl\""
+        },
+        {
+          "start": 118.08,
+          "end": 147.69,
+          "text": "Now if I run this, so will the red line be displayed? We are skating on thin ice, What's this error \"EOL while scanning string Literal\" Let me tell you what does it mean. Basically Python is saying \"You know what, You wrote 'print' here and started with double-quotes(\" \") But when you added a new line by pressing 'Enter'. I didn't like it\" So you'll ask Python what to do \"I need a new line after the word 'boy' \" Python will say \"OK! If you need a new line..."
+        },
+        {
+          "start": 147.88,
+          "end": 176.15,
+          "text": "...So you must use Escape Sequence Character And you've to use \" (back-slash)n \" here like this And you don't literally need to add this new line Just write \" (back-slash)n \" and Python will take care of it So you'll say OK, I wrote \"I am a good boy (back-slash)n \" And when you'll run this code So look \" I am a good boy\" And then \"this viewer is also a good boy/girl\" appeared in a new line So what was this? What was \" (back-slash)n \"?"
+        },
+        {
+          "start": 176.18,
+          "end": 207.78,
+          "text": "It was an Escape Sequence Character I'll talk about this today And I'll also tell you how many different kind of Escape Sequence Character are there And what are the different Escape Sequence Character But first of all I wanna tell you what are comments Let's suppose I'm working on a code base Along with you I'm creating \"codewithharry.com\" And together we are working on that with a tough grind Now let's suppose I want to tell you that the Home Page of 'codewithharry.com' That home page will have a new design and I'll release that after 2 days"
+        },
+        {
+          "start": 207.81,
+          "end": 238.22,
+          "text": "And I want to add a comment here \"Please don't change this design or remove this line from here\" I want to write here... \"Hey Harry please don't remove this line\" Let's suppose I want to add this \"I'm working on it\" So I just want to keep this in code base for a reminder But can you see the the Python is in a black mood His Highness is saying \"What's this. From where did this Invalid Syntax came, I know 'Print' and other syntaxes\""
+        },
+        {
+          "start": 238.38,
+          "end": 268.5,
+          "text": "But Python is saying \"Hey Harry, Please don't remove this line\" I didn’t like it So when we'll run this obviously we'll see an error in it There's no doubt. And you might also know what error is this But I still want to keep this line I'd say \"Please\" to Python and in reply it'll say \"OK! Stop crying like a baby\" \"OK! Stop crying like a baby. Let me tell what to do\" Pythons says \"I've a comment function in me\" Comments means \"You can add whatever text you want and I don't have any business with that\" You'll say \"WOW! Python you're so great\""
+        },
+        {
+          "start": 269.14,
+          "end": 299.95,
+          "text": "And Python will say \"Yes! For sure\" What to do now? Python says \"Just add a character like this and this text will become a comment\" What will it become? A comment And if you mark a line as a comment... Look, Replit is doing syntax highlighting first, for you When you add this character in any IDE so it'll be syntax highlighting In this case this comment started to be displayed in green color And look this syntax highlighting in being continued I wrote print, it is displayed in color 'yellow' And String literal are displayed in orangish color"
+        },
+        {
+          "start": 299.98,
+          "end": 332.56,
+          "text": "And these brackets are also visible to me in a different color And 'error' is being displayed in 'Red' Color so this is called syntax highlighting Which any IDE does for you \"Hey Harry, Please don’t remove this line\" Let's try to run this And this time our program worked Which means I can add some text in my program or I can also add some information For eg. I want to mark that the author of this program is 'Harry' And let's suppose I want to mark that this course is the 100 Days Of Code"
+        },
+        {
+          "start": 333.59,
+          "end": 362.97,
+          "text": "Let's suppose I want to write this so I can do this Now let me spill the beans And what that secret is? Actually it is not a secret anymore because I've told you You can select multiple lines With ( Ctrl + / ) Or (Command + / ) if you're using Mac When you'll press these keys You can comment or uncomment to any code base So if you ever see me commenting some lines faster, so don't ask me how I did that I would have done that with ( Ctrl + / )"
+        },
+        {
+          "start": 363.18,
+          "end": 393.49,
+          "text": "So you can use ( Ctrl + / ) for commenting & uncommenting... ...Single or multiple lines Man what happened to Siri! Siri I'm not talking to you So I was telling you that you can mark these multiple lines.... As comments or you can also uncomment them with the same keys OK! That's great So this is what I've written here \"A comment is a part of the coding file that the programmer does not want to execute"
+        },
+        {
+          "start": 393.54,
+          "end": 423.54,
+          "text": "Rather the programmer uses it to either explain a block of code or to avoid the execution of a specific part of code while testing.\" Are you understanding this? This means Let's suppose that if I write a comment here Or let's suppose I write a code here Suppose I want to write \"print(\"hello world\")\" here And now I want to show this program to my boss And I ask him how the code is So he'll say that this is great but... I don't like this. So please remove \"Hello World\""
+        },
+        {
+          "start": 423.62,
+          "end": 452.12,
+          "text": "I'll say OK So I'll select it and I'll press ( Ctrl + / ) And now I can remove this code And now the boss of my boss will ask him \"Why have you removed \"Hello World\" \" So I can uncomment it And it'll work again So this is how you can do comment or uncomment So I've written the same thing here with example You don't even need to write the code Just copy this from here, paste it in your computer and run this"
+        },
+        {
+          "start": 452.49,
+          "end": 481.66,
+          "text": "And when you'll do this so look You won't see the error \"this is the single line comment\" and you'll be able to see \"this is the print statement\" Now I've given an example here you can also write a comment after a line of code For eg. If you've written something like this I'm pasting it.... And I'll tweak it like this Look I've written \"print\" And then what I can do is... actually I deleted \" a \" I should have added this bracket Now look as I'll write \"print\" here"
+        },
+        {
+          "start": 481.71,
+          "end": 510.22,
+          "text": "And then I'll write \"Hello World\" And then I can write any comment if I want to Which means my code will be executed And as it'll get the pound(#) symbols It'll say \"OK I understood, I won't execute this text\" \"I'll ignore it\" So Python interpreter will ignore \" print(\"Hello world\") \" What should have happened if this symbol was not added? Obviously the error would have occurred You already know that What type error that should be? A syntax error It'll ask what's going on. What is this \"Printing Hello World\""
+        },
+        {
+          "start": 510.49,
+          "end": 540.59,
+          "text": "\"Print hello world\" this was alright His Highness Python will say It'll say \"What have you added this \"Printing hello world\" I didn't like it So you can see as I'll add the pound(#) symbol here And then if I run so it'll work As you can see it works Now look what I can do is.. I can comment this code out I already have told you this But I want to tell you one more thing That how you can add multi-line comments Now let me tell you the story of multi-line comments"
+        },
+        {
+          "start": 540.8,
+          "end": 570.07,
+          "text": "Let's suppose someone has said to me... That... For now let's take it's example let me uncomment it Suppose someone ask me to uncomment these 3 lines I have to 2 ways to do that Now because I'm living in a modern world I have IDE I have Replit I have modern IDEs So I'll select these lines & I'll press ( Ctrl + / ) This is the shortcut provided by Replit & VScode and other modern IDEs Which helps you to do Commenting & Uncommenting easily"
+        },
+        {
+          "start": 570.3,
+          "end": 600.03,
+          "text": "But if I'm unable to do this so what would have I do? So for my convenience I'd have added triple single-quote(''' ''') and whatever I should have written in it I'm using ( Alt + ↓ ) to move the line you should also learn this shortcut In Replit all the shortcuts of VScode works so there's no need for you to be worries And if you want to learn the shortcut of VScode so you can do the Google search I also have uploaded a video regarding VScode you watch that too But for now let's just focus on Python So if I enclose anything in Triple single-quote(''' ''')"
+        },
+        {
+          "start": 600.06,
+          "end": 629.3,
+          "text": "So it'll become a multi-line comment \"But the comment we do earlier wasn't the multi-line comment? \" Obviously it was a type of multi-line comment So that's what I've written here \"that you can use pound(#) symbol for multi-line comment\" But this method in which we use Triple single-quote(''' ''') Or you can also use Triple double-quote(\"\"\" \"\"\") Let me tell you this is also valid Program with Triple single-quote(''' ''') worked But program with Triple double-quote(\"\"\" \"\"\") will also work. I've added Triple double-quote(\"\"\" \"\"\") OK I'll do one thing I'll press ( shift + end ) key and then ( Ctrl + X ) and then ( Ctrl + V ).."
+        },
+        {
+          "start": 629.33,
+          "end": 657.94,
+          "text": "...After selecting it Now if I run this... Even then it'll work Can you see, It worked? Quite great! Man! So this is how we can comment & uncomment any line So I can use this shortcut ( Ctrl + / ) or in Mac ( Command + /)... ...For commenting & uncommenting of line/s of code So I hope you've understood this"
+        },
+        {
+          "start": 657.97,
+          "end": 690.42,
+          "text": "Now let's talk about Escape Sequence Character If you want to insert characters in a string For eg. Here \"Hey I am a good boy\". And let's suppose I want to insert a new line character here So how will I do that? For now I'll comment it out So that you'll only see the output of this print statement You understood why I did this, don't you? \"Hey I am a good boy and this viewer is also a good boy/girl\""
+        },
+        {
+          "start": 690.64,
+          "end": 720.06,
+          "text": "Now look the tutorial that I've written here What have I written in it? I've written \" To insert characters that cannot directly be  used in a string, we use an escape sequence character.\" Essence of everything \"A character that cannot directly be used in string, so we use Escape Sequence Character\" For eg. If I press enter and literally add a new line character so an error will occur Because Python won't be able to parse it If you literally add a new line in a string so it won't be able to parse it That's why we add new line character"
+        },
+        {
+          "start": 720.22,
+          "end": 751.42,
+          "text": "Now '\\' + 'n' they may seem different character But they are one This is called Escape Sequence Character '(back-slash)n' is a new line character an Escape Sequence Character Whenever you add this in a string so you'll be able to see a new line like this So if I run it now so \"Hey I am a good\" and the next sentence will appear in new line What about if I want to enclose \"Hey I am a good boy\" in double-quotes(\" \") This should work, what's the problem in this? You'll think that and if you do so, Can you see this red line"
+        },
+        {
+          "start": 751.94,
+          "end": 780.11,
+          "text": "Replit already has given the sign for danger It rang the bell for danger So IDE always ring the bell for danger and ask you \"don't you dare to run this code\" And if you dare so this will happen You'll see the error \"Invalid Syntax\" You'll ask \"What's the problem in this? \" The problem in this is \"when you started the print statement and then you started your string with double-quotes(\" \") \" So confusion has been created here that this string is being started from here, but is it ending here? You know this, That it is not ending here"
+        },
+        {
+          "start": 780.14,
+          "end": 810.54,
+          "text": "But here But our Python interpreter get's confused It says that you've added double-quotes(\" \") here and then here, so it must be ending here OK! It is ending here Then what it is? This is an Invalid Syntax for Python Because if this double-quotes(\" \") is creating a string from here till here Then What this \"good boy\" is So you'll see an error here So to avoid this we don't use double-quote character We use ' \\\" ' which is a double-quote Escape Sequence Character"
+        },
+        {
+          "start": 810.69,
+          "end": 839.2,
+          "text": "This one is a character This one is a character So now if I run this so it'll only display double-quote(\" \") \"Hey I'm good boy\" is in double-quote(\" \") Did you see \" \\ \" No. But I've used \" \\ \" Why? Because I want to use ' \\\" ' Which is a single character They may seem 2 but it is 1 character ' \\\" ' which produce a single Double-quote(\") in output Which is an Escape Sequence Character"
+        },
+        {
+          "start": 839.57,
+          "end": 867.64,
+          "text": "\" An escape sequence character is a backslash \\ followed by the character you want to insert. \" \"An example of a character that cannot be directly used in a string\" I've written here If your string of print function is in a... ... single-quote(' ') You cannot even use single-quote(' ') Do you get it? We'll dive deep in this in chapter 'Strings' But if I've inserted a single quote in single-quoted string So I cannot do that I've to add \" \\' \""
+        },
+        {
+          "start": 867.67,
+          "end": 896.99,
+          "text": "Look the error has occurred But if I add \" \\' \" so single-quote will appear A single-quote has appeared after \"Hey I am\" So this is how I can add single-quotes in strings So this was the Escape Sequence Character I hope you all have got it Now I want to spill some more beans about print statement The first thing I want to tell you is that... ...You can also add multiple values in print statement Just like I can add \"Hey\" \"6\" & \"7\" all three of these And when I'll run this so all three of them will be printed"
+        },
+        {
+          "start": 897.14,
+          "end": 929.36,
+          "text": "\"Hey\" \"6\" & \"7\" as you all can see in your computer screen And now its other parameter is called separator Now let's suppose If I add \"sep = Tilde(~)\" character And now if I run it So you'll be able see, when I add \"sep = (~)\" so this line will be separated by (~) character As you can see a Tilde(~) character has been appeared after \"Hey\" And then another Tilde(~) character So if you ever want to join any 3 words so you can do this just as I did"
+        },
+        {
+          "start": 929.65,
+          "end": 960.39,
+          "text": "So you can do this... And after this there's another parameter \"end=\" Let's suppose if I write \"009\".... ...In place of \"end=\" So what does it mean? It means if I write next 'print' statement And in that statement suppose I write \"print(\"Harry\") And if I run it... So look \"Hey\" \"6\" \"7\" will be printed And then \"009\" will be printed before the next print statement Ideally we use \"end=\".... Let's suppose if we write \"009(back-slash)n\""
+        },
+        {
+          "start": 960.87,
+          "end": 994.24,
+          "text": "We usually use \"(back-slash)n\" and we can also add \"end=null\" By default the function is \"(back-slash)n\" We also can add \"end=null\" You should know this too Now I've added \"009(back-slash)n\" here So whenever I run the next print statement so \"009(back-slash)n\" will be appended in this print statement What's the difference between \"sep\" & \"end\"? \"sep\" means that how the multiple values of a single print statement will be separated But the default separator is 'Space' as I've written here"
+        },
+        {
+          "start": 994.61,
+          "end": 1023.68,
+          "text": "Now what does \"end\" means? It means 'specify what to print at end' \"What to print when this print statement will end\" You can write anything here and it'll be printed 'By-default' is a new line If you want to over-write this behaviour that when you enter a new print so a new line won't be added Look as I ran this print statement A new line after this, has been printed automatically And a new line will be printed after this too if I haven't added \"end=009(back-slash)n\" But because I've added \"end=009(back-slash)n\""
+        },
+        {
+          "start": 1023.96,
+          "end": 1053.16,
+          "text": "That's why this line will be printed after this print statement And \"sep\" means \"separator\" \"What should come between multiple values in a single print statement\" Great! Now there's another argument name \"file\" And keep this in mind And I've written this here because I want you to know that you can write on 'file' using print statement \"An object with a write method. Default is sys.stdout\" Which means it'll write on 'stdout' wherever you're running it'll be shown on console"
+        },
+        {
+          "start": 1053.36,
+          "end": 1082.22,
+          "text": "We'll talk about the 4th argument later I'll discuss this in the upcoming videos As we'll progress in this course Now I've written another thing here \"Parameters 2 and 4 are optional\" 2nd & 4th parameter are optional Which means you don't need to add 'separator' or 'end' And there's no need for you to write 'file' without these your statement will work As we have already seen we haven't used it in beginning Neither we used \"end\" nor we added multiple values You can also add single values"
+        },
+        {
+          "start": 1082.41,
+          "end": 1108.51,
+          "text": "But if you add multiple values even then it'll work I hope you're enjoying it and if you haven't accessed this code so make sure to give it a hit And also bookmark this playlist because all videos are going to be add there Bookmark this playlist by clicking here And click here to save this play-list That's it for this video guys Thank you so much guys for watching this video:) And I'll see you next time"
+        }
+      ]
+    },
+    {
+      "id": "python-video-06",
+      "number": "6",
+      "title": "Python Training Video 06",
+      "filename": "youtube-ORCuz7s5cCY",
+      "videoUrl": "https://youtu.be/ORCuz7s5cCY",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-07",
+      "number": "7",
+      "title": "Python Training Video 07",
+      "filename": "youtube-FLVqcxnJP_E",
+      "videoUrl": "https://youtu.be/FLVqcxnJP_E",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-08",
+      "number": "8",
+      "title": "Python Training Video 08",
+      "filename": "youtube-dohaSBCKCr0",
+      "videoUrl": "https://youtu.be/dohaSBCKCr0",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-09",
+      "number": "9",
+      "title": "Python Training Video 09",
+      "filename": "youtube-Pu5bqySSSS0",
+      "videoUrl": "https://youtu.be/Pu5bqySSSS0",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-10",
+      "number": "10",
+      "title": "Python Training Video 10",
+      "filename": "youtube-WvG-R-xXouA",
+      "videoUrl": "https://youtu.be/WvG-R-xXouA",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-11",
+      "number": "11",
+      "title": "Python Training Video 11",
+      "filename": "youtube-kMNFQYArrLg",
+      "videoUrl": "https://youtu.be/kMNFQYArrLg",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-12",
+      "number": "12",
+      "title": "Python Training Video 12",
+      "filename": "youtube-0INvoK_T0cE",
+      "videoUrl": "https://youtu.be/0INvoK_T0cE",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-13",
+      "number": "13",
+      "title": "Python Training Video 13",
+      "filename": "youtube-ceiuLR2ysas",
+      "videoUrl": "https://youtu.be/ceiuLR2ysas",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-14",
+      "number": "14",
+      "title": "Python Training Video 14",
+      "filename": "youtube-d7ng_aV4qdI",
+      "videoUrl": "https://youtu.be/d7ng_aV4qdI",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-15",
+      "number": "15",
+      "title": "Python Training Video 15",
+      "filename": "youtube-bthQCK1QAmQ",
+      "videoUrl": "https://youtu.be/bthQCK1QAmQ",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-16",
+      "number": "16",
+      "title": "Python Training Video 16",
+      "filename": "youtube-fIYVzKp0q5w",
+      "videoUrl": "https://youtu.be/fIYVzKp0q5w",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-17",
+      "number": "17",
+      "title": "Python Training Video 17",
+      "filename": "youtube--tCFyIyKVx0",
+      "videoUrl": "https://youtu.be/-tCFyIyKVx0",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-18",
+      "number": "18",
+      "title": "Python Training Video 18",
+      "filename": "youtube-RkwJnjdrm70",
+      "videoUrl": "https://youtu.be/RkwJnjdrm70",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    },
+    {
+      "id": "python-video-19",
+      "number": "19",
+      "title": "Python Training Video 19",
+      "filename": "youtube-dyvxxJSGUsE",
+      "videoUrl": "https://youtu.be/dyvxxJSGUsE",
+      "description": "Fixed V1 YouTube source from the pre-trained video knowledge base.",
+      "chunks": []
+    }
+  ]
+}
